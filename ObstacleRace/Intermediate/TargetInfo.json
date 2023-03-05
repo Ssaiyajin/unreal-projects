@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ObstacleRace",
+			"Path": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ObstacleRaceEditor",
+			"Path": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRaceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

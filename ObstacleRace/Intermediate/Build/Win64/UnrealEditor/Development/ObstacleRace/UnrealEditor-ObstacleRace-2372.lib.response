@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ObstacleRace-2372.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\ObstacleRaceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleRace\MovePlatform.gen.cpp.obj"
+"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleRace\ObstacleRace.init.gen.cpp.obj"
+"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleRace\MovePlatform.cpp.obj"
+"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleRace\ObstacleRace.cpp.obj"
+"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleRace\Default.rc2.res"
+/OUT:"D:\Unreal-Projects\ObstacleRace\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleRace\UnrealEditor-ObstacleRace-2372.lib"
