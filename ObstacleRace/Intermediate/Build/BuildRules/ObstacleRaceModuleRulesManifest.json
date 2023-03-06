@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.Build.cs",
-		"D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace.Target.cs",
-		"D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRaceEditor.Target.cs"
-	],
-	"EngineVersion": "5.1.1"
-}
