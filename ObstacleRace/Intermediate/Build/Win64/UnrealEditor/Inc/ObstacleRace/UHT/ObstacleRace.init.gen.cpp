@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeObstacleRace_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9FAC618F,
+				0x1D15F097,
 				0xA8CB05BF,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeObstacleRace_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_ObstacleRace.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ObstacleRace(Z_Construct_UPackage__Script_ObstacleRace, TEXT("/Script/ObstacleRace"), Z_Registration_Info_UPackage__Script_ObstacleRace, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x9FAC618F, 0xA8CB05BF));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ObstacleRace(Z_Construct_UPackage__Script_ObstacleRace, TEXT("/Script/ObstacleRace"), Z_Registration_Info_UPackage__Script_ObstacleRace, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1D15F097, 0xA8CB05BF));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
