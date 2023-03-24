@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal-projects\\obstaclerace\\intermediate\\build\\win64\\unrealgame\\inc\\obstaclerace\\uht\\obstaclerace.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal-projects\\obstaclerace\\intermediate\\build\\win64\\obstaclerace\\shipping\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unreal-projects\\obstaclerace\\intermediate\\build\\win64\\unrealgame\\shipping\\obstaclerace\\definitions.obstaclerace.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace\\MovingPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal-Projects\\ObstacleRace\\.vscode\\compileCommands_ObstacleRace\\ObstacleRace.255.rsp"
+		],
+		"directory": "D:\\Unreal Engine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace\\MovingPlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal-Projects\\ObstacleRace\\.vscode\\compileCommands_ObstacleRace\\ObstacleRace.255.rsp"
+		],
+		"directory": "D:\\Unreal Engine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal-Projects\\ObstacleRace\\.vscode\\compileCommands_ObstacleRace\\ObstacleRace.255.rsp"
+		],
+		"directory": "D:\\Unreal Engine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal-Projects\\ObstacleRace\\.vscode\\compileCommands_ObstacleRace\\ObstacleRace.255.rsp"
+		],
+		"directory": "D:\\Unreal Engine\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal-Projects\\ObstacleRace\\Source\\ObstacleRace\\ObstacleRace.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal-Projects\\ObstacleRace\\.vscode\\compileCommands_ObstacleRace\\ObstacleRace.255.rsp"
+		],
+		"directory": "D:\\Unreal Engine\\UE_5.1\\Engine\\Source"
+	}
+]
