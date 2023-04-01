@@ -15,8 +15,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CRYPTRAIDER_Grabber_generated_h
 
 #define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_SPARSE_DATA
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_RPC_WRAPPERS
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRelease); \
+	DECLARE_FUNCTION(execGrab);
+
+
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRelease); \
+	DECLARE_FUNCTION(execGrab);
+
+
 #define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_ACCESSORS
 #define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_Grabber_h_13_INCLASS_NO_PURE_DECLS \
 private: \

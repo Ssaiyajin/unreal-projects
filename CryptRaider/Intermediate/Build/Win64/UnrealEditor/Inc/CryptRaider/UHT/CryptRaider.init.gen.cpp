@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCryptRaider_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x6C16B1D9,
+				0xC27B6538,
 				0x53B4E7D6,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -29,5 +29,5 @@ void EmptyLinkFunctionForGeneratedCodeCryptRaider_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_CryptRaider.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CryptRaider(Z_Construct_UPackage__Script_CryptRaider, TEXT("/Script/CryptRaider"), Z_Registration_Info_UPackage__Script_CryptRaider, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6C16B1D9, 0x53B4E7D6));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CryptRaider(Z_Construct_UPackage__Script_CryptRaider, TEXT("/Script/CryptRaider"), Z_Registration_Info_UPackage__Script_CryptRaider, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC27B6538, 0x53B4E7D6));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
