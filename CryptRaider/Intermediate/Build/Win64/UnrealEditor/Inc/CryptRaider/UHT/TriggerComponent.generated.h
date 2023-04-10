@@ -9,16 +9,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UMover;
 #ifdef CRYPTRAIDER_TriggerComponent_generated_h
 #error "TriggerComponent.generated.h already included, missing '#pragma once' in TriggerComponent.h"
 #endif
 #define CRYPTRAIDER_TriggerComponent_generated_h
 
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_SPARSE_DATA
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_RPC_WRAPPERS
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ACCESSORS
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_SPARSE_DATA
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetMover);
+
+
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetMover);
+
+
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ACCESSORS
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTriggerComponent(); \
 	friend struct Z_Construct_UClass_UTriggerComponent_Statics; \
@@ -27,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(UTriggerComponent)
 
 
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_INCLASS \
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUTriggerComponent(); \
 	friend struct Z_Construct_UClass_UTriggerComponent_Statics; \
@@ -36,9 +45,9 @@ public: \
 	DECLARE_SERIALIZER(UTriggerComponent)
 
 
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UTriggerComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UTriggerComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTriggerComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTriggerComponent); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTriggerComponent); \
@@ -50,9 +59,7 @@ public: \
 	NO_API virtual ~UTriggerComponent();
 
 
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UTriggerComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTriggerComponent(UTriggerComponent&&); \
@@ -60,31 +67,31 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTriggerComponent); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTriggerComponent); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTriggerComponent) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTriggerComponent) \
 	NO_API virtual ~UTriggerComponent();
 
 
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_12_PROLOG
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_GENERATED_BODY_LEGACY \
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_13_PROLOG
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_SPARSE_DATA \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_RPC_WRAPPERS \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ACCESSORS \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_INCLASS \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_STANDARD_CONSTRUCTORS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_SPARSE_DATA \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_RPC_WRAPPERS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ACCESSORS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_INCLASS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_GENERATED_BODY \
+#define FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_SPARSE_DATA \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ACCESSORS \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_SPARSE_DATA \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ACCESSORS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Projects_CryptRaider_Source_CryptRaider_TriggerComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
